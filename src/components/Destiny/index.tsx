@@ -3,8 +3,8 @@ import Tag from "../Tag";
 
 const TopDestiny = () => {
   return (
-    <article className="flex justify-center items-center flex-col">
-      <section className="bg-[url('./assets/background.png')] w-full flex flex-col items-center py-21">
+    <article className="flex justify-center items-center pt-20 flex-col">
+      <section className="bg-[url('./assets/background.png')] bg-center bg-no-repeat bg-cover w-full flex flex-col items-center py-21">
         <Tag name={"Top Destino"} />
 
         <h2 className="text-6xl pt-2 not-lg:text-3xl text-[var(--primary-navy)] text-center">
