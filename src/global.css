@@ -2,14 +2,20 @@
 
 :root {
   font-family: "Inter", Helvetica, Arial, sans-serif;
+
+  /* --primary-typography: #232323; */
+  --primary-navy: #232323;
+  --primary-yellow: #f6c010;
+  --primary-subtitle: #8d8d8d;
+  --primary-blue: #1b2543;
+  --primary-white: #ffffff;
+  --secondary-white: #e5e3e3;
+  --tertiary-white: #e5e5e5;
 }
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
+* {
   box-sizing: border-box;
+  line-height: 130.8%;
 }
 
 html,
@@ -30,7 +36,6 @@ svg {
 }
 
 input,
-button,
 textarea,
 select {
   font: inherit;
@@ -41,15 +46,14 @@ select {
 
 button {
   cursor: pointer;
-  background-color: transparent;
-  border: none;
-  padding: 0;
   text-align: inherit;
   appearance: none;
+  line-height: 100%;
 }
 
 a {
-  color: inherit;
+  /* color: inherit; */
+  /* line-height: 100%; */
   text-decoration: none;
 }
 
@@ -61,4 +65,18 @@ ol {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
