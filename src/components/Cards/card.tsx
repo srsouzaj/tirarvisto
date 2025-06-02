@@ -1,8 +1,9 @@
+import Button from "../Button";
 import type { IPackage } from "./utils/package.mocked";
 
 const Card = ({ pack }: { pack: IPackage }) => {
   return (
-    <article className="keen-slider__slide p-4 rounded-xl border-2 border-[var(--tertiary-white)] transition-all duration-300 hover:border-[var(--primary-blue)] overflow-hidden flex flex-col">
+    <article className="keen-slider__slide p-4 rounded-xl border-2 border-[var(--tertiary-white)] overflow-hidden flex flex-col">
       <figure>
         <img
           src={pack.img}
@@ -46,15 +47,7 @@ const Card = ({ pack }: { pack: IPackage }) => {
               {pack.preco}
             </p>
           </div>
-          <a
-            href="#"
-            className="font-semibold text-base text-[var(--primary-white)] py-4 px-5 rounded-4xl flex items-center justify-center
-        hover:bg-transparent hover:text-[var(--primary-navy)] cursor-pointer transition-colors duration-300
-        hover:border-[var(--primary-navy)] border-[var(--primary-navy)] border
-        bg-[var(--primary-blue)]"
-          >
-            Contratar
-          </a>
+          <Button link="#" name="Contratar" />
         </footer>
       </section>
     </article>
