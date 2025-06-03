@@ -14,7 +14,7 @@
   --quartiary-white: #f7f7f7;
 }
 
-* {
+*:not(a) {
   box-sizing: border-box;
   line-height: 130.8%;
 }
@@ -53,8 +53,7 @@ button {
 }
 
 a {
-  /* color: inherit; */
-  /* line-height: 100%; */
+  line-height: normal;
   text-decoration: none;
 }
 
