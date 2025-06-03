@@ -19,6 +19,7 @@ const Button = ({ link, name, isArrow = false }: IButton) => {
       {isArrow && (
         <ArrowRightIcon
           width={24}
+          height={24}
           className="text-[var(--primary-white)] group-hover:text-[var(--primary-blue)] transition"
         />
       )}
