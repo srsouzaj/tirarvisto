@@ -17,7 +17,7 @@ const Navbar = () => {
     <header className="sticky top-0 bg-white z-50">
       <div className="flex items-center justify-between h-20 not-lg:h-10">
         <img
-          src="https://i.ibb.co/Vpp8cCXK/logo.webp"
+          src="https://i.ibb.co/p62M3dFn/logo-1.webp"
           alt="Logo"
           className="h-8"
           loading="lazy"
