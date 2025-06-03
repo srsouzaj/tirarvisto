@@ -10,7 +10,7 @@ const TopDestiny = () => {
       data-aos-duration="1500"
       className="flex justify-center not-lg:px-5 items-center lg:pt-20 flex-col"
     >
-      <section className="bg-[url('./assets/background.png')] bg-center bg-no-repeat bg-cover w-full flex flex-col items-center py-21">
+      <section className="bg-[url('https://i.ibb.co/5gNTHRBd/background.pngbackground.png')] bg-center bg-no-repeat bg-cover w-full flex flex-col items-center py-21">
         <Tag name={"Top Destino"} />
 
         <h2 className="text-6xl pt-2 not-lg:text-3xl text-[var(--primary-navy)] text-center">
