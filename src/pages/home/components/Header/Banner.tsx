@@ -1,0 +1,20 @@
+const Banner = () => {
+  return (
+    <div className="relative bg-[url('https://i.ibb.co/ZRfv1gDb/header.webp')] box-shadow rounded-3xl flex flex-col items-start justify-end p-8 bg-cover bg-center not-lg:h-150 lg:h-200 w-full">
+      <span className="w-fit absolute top-4 right-4 font-semibold text-base bg-[var(--primary-yellow)] px-5 py-4 rounded-full">
+        Tirar meu visto agora!
+      </span>
+      <div className="w-[75%] not-lg:w-full flex flex-col gap-3">
+        <h2 className="text-white text-5xl not-lg:text-2xl font-semibold">
+          Realize o seu sonho com a ajuda da Tirar Visto!
+        </h2>
+        <p className="text-white not-lg:text-sm text-base">
+          Com um serviço profissional, você não terá dor de cabeça para todo o
+          processo do visto e entrevistas no consulado.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Banner;

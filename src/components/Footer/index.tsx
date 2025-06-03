@@ -4,10 +4,10 @@ import ExternalLink from "./externalLink";
 
 const Footer = () => {
   return (
-    <footer className="h-[755px] w-full">
-      <div className="container flex py-17.5 flex-col gap-20">
+    <footer className="max-h-[755px] w-full">
+      <div className="container flex py-17.5 flex-col not-lg:gap-10 lg:gap-20">
         <Doubt />
-        <section className="flex w-full not-lg:flex-wrap gap-17 items-end">
+        <section className="flex w-full not-lg:flex-wrap gap-17 not-lg:gap-10 items-end">
           <Social />
           <ExternalLink />
         </section>

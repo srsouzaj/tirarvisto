@@ -1,31 +1,26 @@
 import { useEffect } from "react";
-import CardList from "./components/Cards";
-import TopDestiny from "./components/Destiny";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
-import GoodHands from "./components/GoodHands";
-import Header from "./components/Header";
-import HowWorking from "./components/HowWorking";
+
 import AOS from "aos";
+import "./global.css";
 import "aos/dist/aos.css";
+import Home from "./pages/home";
 
 function App() {
   useEffect(() => {
-    AOS.init({
-      duration: 1000, // duração padrão da animação
-      once: true, // anima só na primeira vez que aparece
-    });
+    AOS.init();
   }, []);
 
   return (
-    <main>
-      <Header />
-      <GoodHands />
-      <HowWorking />
-      <TopDestiny />
-      <CardList />
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
       <Footer />
-    </main>
+    </>
   );
 }
 

@@ -4,7 +4,7 @@ const Social = () => {
       <p className="text-[var(--primary-navy)] text-base font-semibold">
         Siga em nossa redes:
       </p>
-      <div className="flex gap-5">
+      <div className="flex not-lg:flex-wrap gap-5">
         <a
           href=""
           className="border
