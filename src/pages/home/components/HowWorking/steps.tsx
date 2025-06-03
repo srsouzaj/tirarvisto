@@ -6,7 +6,8 @@ const Steps = () => {
       <aside className="container flex not-lg:flex-col lg:gap-9 not-lg:gap-5 items-start">
         <img
           src="https://i.ibb.co/R4bCB1b3/happy.webp"
-          alt=""
+          alt="pessoas felizes"
+          loading="lazy"
           className="w-full h-111 not-lg:h-full rounded-3xl"
         />
         <div className="w-full">

@@ -16,7 +16,12 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 bg-white z-50">
       <div className="flex items-center justify-between h-20 not-lg:h-10">
-        <img src="src/assets/logo.svg" alt="Logo" className="h-8" />
+        <img
+          src="https://i.ibb.co/Vpp8cCXK/logo.webp"
+          alt="Logo"
+          className="h-8"
+          loading="lazy"
+        />
 
         <nav className="hidden md:flex space-x-8">
           {navItems.map(({ name, path }) => (

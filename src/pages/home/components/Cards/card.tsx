@@ -8,6 +8,7 @@ const Card = ({ pack }: { pack: IPackage }) => {
         <img
           src={pack.img}
           alt={pack.title}
+          loading="lazy"
           className="w-full h-75 rounded-xl object-cover"
         />
       </figure>

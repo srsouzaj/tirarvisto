@@ -4,9 +4,10 @@ const Video = () => {
   return (
     <div className="w-full flex flex-col gap-4">
       <img
-        src="src/assets/video.webp"
+        src="https://i.ibb.co/pBLrdP8q/video.webp"
         className="h-27.5 not-lg:w-full not-lg:h-full w-52"
-        alt=""
+        alt="banner de video"
+        loading="lazy"
       />
       <div className="flex gap-3 justify-between">
         <div>

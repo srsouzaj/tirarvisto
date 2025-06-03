@@ -12,14 +12,14 @@ const GoodHands = () => {
             Consultoria completa para tirar seu visto
           </h2>
           <img
-            src="src/assets/phone.svg"
+            src="https://i.ibb.co/tPwM8VkZ/phone.webp"
             className="lg:w-40 lg:h-40 not-lg:w-20 not-lg:h-20"
             alt=""
           />
         </div>
         <div className="flex">
           <img
-            src="src/assets/time.svg"
+            src="https://i.ibb.co/XZsKLfqY/time.webp"
             className="lg:w-40 lg:h-40 not-lg:w-20 not-lg:h-20"
             alt=""
           />
