@@ -27,9 +27,9 @@ const Video = () => {
         bg-[var(--primary-blue)] group"
         >
           <ArrowRightIcon
-            // width={24}
-            // height={24}
-            className="text-[var(--primary-white)] w-6 h-6 group-hover:text-[var(--primary-blue)] transition"
+            width={24}
+            height={24}
+            className="text-[var(--primary-white)] m-0 w-6 h-6 group-hover:text-[var(--primary-blue)] transition"
           />
         </a>
       </div>
