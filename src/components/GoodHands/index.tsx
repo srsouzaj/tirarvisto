@@ -1,6 +1,11 @@
 const GoodHands = () => {
   return (
-    <section className="border py-18 bg-[var(--quartiary-white)]">
+    <section
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+      className="py-18 bg-[var(--quartiary-white)]"
+    >
       <aside className="container">
         <div className="flex w-full">
           <h2 className="text-6xl w-[80%] not-lg:text-4xl text-[var(--primary-navy)] uppercase font-medium">

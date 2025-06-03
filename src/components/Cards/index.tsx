@@ -1,8 +1,8 @@
 import { ArrowLeftIcon, ArrowRightIcon } from "@phosphor-icons/react";
 import { useKeenSlider } from "keen-slider/react";
-import { packageMocked } from "./Cards/utils/package.mocked";
-import Card from "./Cards/card";
-import Tag from "./Tag";
+import { packageMocked } from "./utils/package.mocked";
+import Card from "./card";
+import Tag from "../Tag";
 
 const CardList = () => {
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
@@ -28,7 +28,12 @@ const CardList = () => {
   });
 
   return (
-    <section className="container pt-18.5">
+    <section
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+      className="container pt-18.5"
+    >
       <Tag name="Pacotes" />
       <aside className="flex flex-col pt-6 gap-15">
         <div className="flex justify-between items-center">

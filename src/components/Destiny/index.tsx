@@ -3,7 +3,12 @@ import Tag from "../Tag";
 
 const TopDestiny = () => {
   return (
-    <article className="flex justify-center items-center pt-20 flex-col">
+    <article
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+      className="flex justify-center items-center pt-20 flex-col"
+    >
       <section className="bg-[url('./assets/background.png')] bg-center bg-no-repeat bg-cover w-full flex flex-col items-center py-21">
         <Tag name={"Top Destino"} />
 

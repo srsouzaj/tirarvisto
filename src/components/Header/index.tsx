@@ -9,7 +9,12 @@ const Header = () => {
   const families = useCountUp({ target: 634, duration: 1200 });
 
   return (
-    <section className="flex p-5">
+    <section
+      className="flex p-5"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
       <header className="w-full px-7.5">
         <aside>
           <h1 className="text-6xl font-medium pb-8 border-b border-[var(--secondary-white)]">
