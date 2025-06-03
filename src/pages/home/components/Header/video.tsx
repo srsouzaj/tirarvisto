@@ -20,7 +20,7 @@ const Video = () => {
         </div>
         <a
           href="#"
-          className="font-semibold text-base text-[var(--primary-white)] py-2 px-2 rounded-full
+          className="font-semibold text-base text-[var(--primary-white)] py-2 px-5 rounded-full
                    flex items-center justify-center
         hover:bg-transparent hover:text-[var(--primary-navy)] cursor-pointer transition-colors duration-300
         hover:border-[var(--primary-navy)] border-[var(--primary-navy)] border
