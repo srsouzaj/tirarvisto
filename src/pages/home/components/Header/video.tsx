@@ -20,7 +20,7 @@ const Video = () => {
         </div>
         <a
           href="#"
-          className="font-semibold w-fit text-base text-[var(--primary-white)] gap-2 py-2.5 px-2 rounded-full
+          className="font-semibold w-fit text-base text-[var(--primary-white)] gap-2 py-2 px-2 rounded-full
                    flex items-center justify-center
         hover:bg-transparent hover:text-[var(--primary-navy)] cursor-pointer transition-colors duration-300
         hover:border-[var(--primary-navy)] border-[var(--primary-navy)] border
@@ -28,6 +28,7 @@ const Video = () => {
         >
           <ArrowRightIcon
             width={24}
+            height={24}
             className="text-[var(--primary-white)] group-hover:text-[var(--primary-blue)] transition"
           />
         </a>
