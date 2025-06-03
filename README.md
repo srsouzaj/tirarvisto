@@ -1,54 +1,61 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img alt="logo" src="https://i.ibb.co/p62M3dFn/logo-1.webp" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **💻** Projeto
 
-Currently, two official plugins are available:
+Projeto “Tirar Visto”, landing page para apresentação de uma página de vistos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img alt="background" src="https://i.ibb.co/Zp10FyLs/Tirar-Visto.png" />
+</p>
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React Router Dom](https://reactrouter.com/)
+- [aos](https://michalsnik.github.io/aos/)
+- [Keen Slider](https://keen-slider.io/)
+- [Vite](https://vite.dev/)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## **🔖 Deploy e Layout**
+
+Você pode visualizar o deploy do sistema em funcionamento, bem como o layout utilizado através dos links abaixo:
+
+- [Deploy](https://tirarvisto.vercel.app/)
+- [Layout](https://www.figma.com/design/p3qbr3Un8G8q69YbRBXae5/Tirar-Visto?node-id=0-55&t=2cBLjkMLhLRl52Zv-1)
+
+## **🚀** Como Executar
+
+Antes de baixar o projeto você vai precisar ter instalado na sua máquina as seguintes ferramentas:
+
+- [Git](https://git-scm.com/)
+- [NodeJS](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+
+Segue os comandos para baixar e executar o projeto na sua máquina:
+
+```bash
+## Clone o projeto em sua máquina
+git clone [https://github.com/srsouzaj/tirarvisto](https://github.com/srsouzaj/tirarvisto)
+
+# Acessar o projeto no terminal
+$ cd tirarvisto
+
+# Instalar as dependências
+$ npm install
+
+# executar o servidor em modo de desenvolvimento
+$ npm run dev
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📝 License
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/srsouzaj/tirarvisto/blob/main/LICENSE) para mais detalhes.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Feito por Jorge de Souza
+
+---
