@@ -2,13 +2,29 @@ import { ArrowRightIcon } from "@phosphor-icons/react";
 
 const Video = () => {
   return (
-    <div className="w-full flex flex-col gap-4">
-      <img
-        src="https://i.ibb.co/pBLrdP8q/video.webp"
-        className="h-27.5 not-lg:w-full not-lg:h-full w-52"
-        alt="banner de video"
-        loading="lazy"
-      />
+    <a
+      href="https://youtube.com"
+      rel="noopener noreferrer"
+      target="blank"
+      className="w-full flex  flex-col gap-4"
+    >
+      <picture className="h-27.5 cursor-pointer not-lg:w-full not-lg:h-1/4 w-52">
+        <source
+          srcSet="https://i.ibb.co/pBLrdP8q/video.webp"
+          media="(min-width: 769px) and (max-width: 1400px)"
+        />
+        <source
+          srcSet="https://i.ibb.co/9mRGwHnS/image.webp"
+          media="(max-width: 768px)"
+        />
+        <img
+          src="https://i.ibb.co/pBLrdP8q/video.webp"
+          alt="banner de video"
+          className="rounded-xl"
+          loading="lazy"
+        />
+      </picture>
+
       <div className="flex gap-3 justify-between">
         <div>
           <p className="text-base text-[var(--primary-navy)]">
@@ -33,7 +49,7 @@ const Video = () => {
           />
         </a>
       </div>
-    </div>
+    </a>
   );
 };
 
